@@ -711,11 +711,11 @@ Here, we have completed the process of uploading code to the phone. It is import
 
 ![](./media/Makecode_804e502b.png)
 
-1\.  **Description**
+### (1) Description
 
 This module consists of a commonly used LED with 7colors but in white appearance. It can automatically flash different colors to create fantastic light effects when high level is input like a normal LED.
 
-2\.  **Preparation**
+### (2) Preparation
 
 - Insert the micro:bit board into the slot of keyestudio   4WD Mecanum Robot Car V2.0
 
@@ -727,7 +727,7 @@ This module consists of a commonly used LED with 7colors but in white appearance
 
 - Open the Web version of Makecode.
 
-3\.  **Test Code1**
+### (3) Test Code1
 
 Make the RGB light flash 7 lights alternatively.
 
@@ -737,11 +737,11 @@ Click“JavaScript”to view the corresponding JavaScript code:
 
 ![](./media/Makecode_1b7f9af6.png)
 
-4\.  **Test Result1**
+### (4) Test Result1
 
 Download code 1 to micro:bit board and dial POWER switch to ON end, 2 RGB lights of smart car emit red, green, blue, indigo, dark red, yellow and white color cyclically.
 
-5\.  **Test Code2**
+### (5) Test Code2
 
 ![](./media/Makecode_bdce981c.png)
 
@@ -749,7 +749,7 @@ Click“JavaScript”to view the corresponding JavaScript code:
 
 ![](./media/Makecode_66e64829.png)
 
-6\.  **Test Result2**
+### (6) Test Result2
 
 Download code 2 to micro:bit board, 2 RGB lights will flash for 1 second and then stop flashing for 1 second, cyclically.
 
@@ -758,11 +758,11 @@ Download code 2 to micro:bit board, 2 RGB lights will flash for 1 second and the
 
 ![](./media/Makecode_eecf79fe.png)
 
-1\.  **Description**
+### (1) Description
 
 The driver shield cooperates 4 pcs WS2812 RGB LEDs, compatible with micro:bit board and controlled by P7. In this lesson, we will make the RGB LEDs display different colors by P7. In this lesson, 3 sets of test code are provided to make the 4 WS2812 RGB LEDs display different effects.
 
-2\.  **Preparation**
+### (2) Preparation
 
 - Insert the micro:bit board into the slot of keyestudio   4WD Mecanum Robot Car V2.0
 
@@ -774,7 +774,7 @@ The driver shield cooperates 4 pcs WS2812 RGB LEDs, compatible with micro:bit bo
 
 - Open the Web version of Makecode.
 
-3\.  **Test Code1**
+### (3) Test Code1
 
 ![](./media/Makecode_d3ad748c.png)
 
@@ -782,11 +782,11 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 ![](./media/Makecode_ce3ad2e9.png)
 
-4\.  **Test Result1**
+### (4) Test Result1
 
 Download code 1 to micro：bit, and dial POWER to ON end. All four WS2812RGB LEDs light up a different color a time cyclically.
 
-5\.  **Test Code2**
+### (5) Test Code2
 
 ![](./media/Makecode_38c4d1eb.png)
 
@@ -800,11 +800,11 @@ Click“JavaScript" to switch into the corresponding JavaScript code:
 
 ![](./media/Makecode_cc2c2fb3.png)
 
-6\.  **Test Result2**
+### (6) Test Result2
 
 Download code 2 to micro：bit, WS2812RGB LEDs display like flow light.
 
-7\.  **Test Code3**
+### (7) Test Code3
 
 ![](./media/Makecode_d3e5aa0a.png)
 
@@ -812,7 +812,7 @@ Click“JavaScript”to switch into the corresponding JavaScript code:
 
 ![](./media/Makecode_212ce3c8.png)
 
-8\.  **Test Result3**
+### (8) Test Result3
 
 Download code 3 to micro：bit, every WS2812RGB light shows random color one by one.
 
@@ -820,13 +820,13 @@ Download code 3 to micro：bit, every WS2812RGB light shows random color one by 
 
 ![](./media/Makecode_215da878.png)
 
-1\.  **Description**
+### (1) Description
 
 For those DIY smart cars, they often have the function of automatic obstacle avoidance. In the DIY process, we need to use a servo to control the ultrasonic module to rotate left and right, and then detect the distance between the car and the obstacle, so as to control the car to avoid the obstacle. If other microcontrollers are used to control the rotation of the servo, we need to set a certain frequency and a certain width of pulse to control the servo angle.
 
 However, if the micro:bit main board is used to control the servo angle, we only need to set the control angle in the development environment where the corresponding pulse will be automatically set to control the servo rotation. In this project, you will learn how to control the servo to rotate back and forth between 0° and 90°.
 
-2\.  **Information of the Servo**
+### (2) Information of the Servo
 
 Servo motor is a position control rotary actuator. It mainly consists of housing, circuit board, core-less motor, gear and position sensor. Its working principle is that the servo receives the signal sent by MCU or receiver, and produces a reference signal with a period of 20ms and width of 1.5ms, then compares the acquired DC bias voltage to the voltage of the potentiometer and obtains the voltage difference output.
 
@@ -842,7 +842,7 @@ More details:
 
 ![](./media/Makecode_b167d550.png)
 
-3\.  **Parameters**
+### (3) Parameters
 
 - Working voltage: DC 4.8V ~ 6V
 
@@ -860,7 +860,7 @@ More details:
 
 - Standby current: 3 ± 1mA (DC 4.8V) 4 ± 1mA (DC 6V)
 
-4\.  **Preparation**
+### (4) Preparation
 
 - Insert the micro:bit board into the slot of keyestudio   4WD Mecanum Robot Car V2.0
 
@@ -872,8 +872,7 @@ More details:
 
 - Open the Web version of Makecode
 
-
-5\.  **Test Code**
+### (5) Test Code
 
 ![](./media/Makecode_087e1822.png)
 
@@ -881,7 +880,7 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](./media/Makecode_2354311f.png)
 
-6.  **Test Result**
+### (6) Test Result
 
 After uploading the test code and dial POWER switch to ON end, the servo rotates from 0 degree to 180 degrees.
 
@@ -889,7 +888,7 @@ After uploading the test code and dial POWER switch to ON end, the servo rotates
 
 ![](./media/Makecode_77f3b857.png)
 
-1\.  **Description**
+### (1) Description
 
 The Keyestudio 4WD Mecanum Robot Car is equipped with 4 DC reduction motors, also called gear reduction motor, which is developed on the ordinary DC motor. It has a matching gear reduction box which provides a lower speed but a larger torque. Furthermore, different reduction ratios of the box can provide different speeds and torques.
 
@@ -913,7 +912,7 @@ STC8G1K08 Chip circuit
 
 HR8833 Motor driver circuit
 
-2\.  **Preparation**
+### (2) Preparation
 
 - Insert the micro:bit board into the slot of keyestudio 4WD Mecanum Robot Car V2.0
 
@@ -925,7 +924,7 @@ HR8833 Motor driver circuit
 
 - Open the Web version of Makecode
 
-3\.  **Test Code1**
+### (3) Test Code1
 
 ![](./media/Makecode_3a759dd8.png)
 
@@ -933,11 +932,11 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](./media/Makecode_242ba6ca.png)
 
-4\.  **Test Result1**
+### (4) Test Result1
 
 Download code 1 to micro:bit board, dial POWER switch to ON end. Smart car goes forward for 2s and stops for 2s.
 
-5\.  **Test Code2**
+### (5) Test Code2
 
 ![](./media/Makecode_a3a9d39a.png)
 
@@ -947,7 +946,7 @@ Click“JavaScript" to view the corresponding JavaScript code:
 
 ![](./media/Makecode_ee70b846.png)
 
-6\.  **Test Result2**
+### (6) Test Result2
 
 Download code 2 to micro:bit board, the car goes forward for 2s, turns back for 2s, turn left for 2s, turn right for 2s and stops for 2s and repeats this pattern.
 
